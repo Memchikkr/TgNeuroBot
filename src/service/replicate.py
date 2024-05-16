@@ -21,5 +21,5 @@ class ReplicateService:
         if isinstance(generated_images, str):
             image = generated_images
         else:
-            image = generated_images
+            image = generated_images[0]
         return image
