@@ -8,7 +8,7 @@ from aiohttp_socks import ProxyConnector, ProxyType
 
 from config import project_settings
 from src.handlers.start import router as start_router
-from src.handlers.chatgpt import router as chat_gpt_router
+from src.handlers.replicate import router as chat_gpt_router
 
 # auth = BasicAuth(login=project_settings.proxy_login, password=project_settings.proxy_password)
 # session = AiohttpSession(proxy=(project_settings.proxy_url))

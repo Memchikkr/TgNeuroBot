@@ -8,6 +8,7 @@ class ProjectSettings(BaseSettings):
     proxy_password: str
     proxy_url: str
     tg_token: str
+    replicate_api_token: str
 
 
 project_settings = ProjectSettings()
